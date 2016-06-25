@@ -2,4 +2,8 @@ class libro
 {
   private $nombre;
   private $autor;
+  public function setNombre($nombre) { $this->nombre=$nombre;}
+  public function setAutor($autor) { $this->autor=$autor;}
+  public function getNombre() { return $this->nombre;}
+  public function getAutor() { return $this->autor;}
 }
