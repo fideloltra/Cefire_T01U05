@@ -6,4 +6,8 @@ class libro
   public function setAutor($autor) { $this->autor=$autor;}
   public function getNombre() { return $this->nombre;}
   public function getAutor() { return $this->autor;}
+  public function alta()
+  {
+ 	*/........./*
+  }
 }
